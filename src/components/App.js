@@ -17,7 +17,7 @@ function App() {
         payload: JSON.parse(ls),
       });
     }
-  }, []);
+  }, );
 
   return (
     <ErrorBoundry>
